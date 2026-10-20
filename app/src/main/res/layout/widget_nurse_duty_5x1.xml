@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_glass_blur_bg"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="5">
+
+    <!-- 1일차 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView android:id="@+id/day_1_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/20(화)" android:textColor="#FFFFFF" android:textSize="10sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_1_shift" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:gravity="center" android:text="NO" android:textColor="#C4B5FD" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_1_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#FDA4AF" android:textSize="9sp" android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- 2일차 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView android:id="@+id/day_2_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/21(수)" android:textColor="#FFFFFF" android:textSize="10sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_2_shift" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:gravity="center" android:text="Off" android:textColor="#6EE7B7" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_2_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#FDA4AF" android:textSize="9sp" android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- 3일차 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView android:id="@+id/day_3_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/22(목)" android:textColor="#FFFFFF" android:textSize="10sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_3_shift" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:gravity="center" android:text="D" android:textColor="#FDE68A" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_3_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#FDA4AF" android:textSize="9sp" android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- 4일차 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView android:id="@+id/day_4_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/23(금)" android:textColor="#FFFFFF" android:textSize="10sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_4_shift" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:gravity="center" android:text="D" android:textColor="#FDE68A" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_4_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#FDA4AF" android:textSize="9sp" android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- 5일차 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <TextView android:id="@+id/day_5_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10/24(토)" android:textColor="#93C5FD" android:textSize="10sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_5_shift" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:gravity="center" android:text="DO" android:textColor="#7DD3FC" android:textSize="13sp" android:textStyle="bold" />
+        <TextView android:id="@+id/day_5_holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#FDA4AF" android:textSize="9sp" android:singleLine="true" />
+    </LinearLayout>
+
+</LinearLayout>
